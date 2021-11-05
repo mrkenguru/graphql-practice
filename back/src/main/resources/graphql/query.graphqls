@@ -1,0 +1,6 @@
+# All available queries on this graphql server
+
+type Query {
+    book(id: ID): Book
+    books: [Book]
+}

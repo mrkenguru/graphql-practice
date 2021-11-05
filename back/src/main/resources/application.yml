@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      host: mongo-db
+      username: root
+      password: root
+      database: books
+      port: 27017
+
+graphql:
+  servlet:
+    max-query-depth: 10
+    exception-handlers-enabled: true
