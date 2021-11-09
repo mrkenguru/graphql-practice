@@ -15,3 +15,8 @@ graphql:
   servlet:
     max-query-depth: 10
     exception-handlers-enabled: true
+    cors:
+      allowed-origins:
+        - "http://localhost:3000"
+        - "http://localhost:3001"
+

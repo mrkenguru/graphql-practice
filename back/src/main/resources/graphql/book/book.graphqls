@@ -5,3 +5,13 @@ type Book {
     authors: [String]
     publishedDate: String
 }
+
+input SortBy {
+    direction: SORT_DIRECTION
+    field: String!
+}
+
+enum SORT_DIRECTION {
+    ASC
+    DESC
+}
